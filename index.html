@@ -4,3 +4,31 @@ My name is Luvinia Mo.
 
 I'm a rising sophomore at Lowell High School. Some of my interests are video editing and fashion. I like to spend my time catching up with old friends and exploring 90s runway and films. I hope to be a pharnacist in the future or have a career in the medical field. I was born in SF but lived in New York (2014-2018) before moving back to SF. I'm currently an intern at Each1Teach1 as well as in MYEEP.
 
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { StyleSheet, Text, View, Button } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>welcome to my app</Text>
+      <Text>wassup</Text>
+      <Button title="Click Me" onPress ={function click (){alert("close")}} ></Button>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+<Text>displays anything
+  return <Text></Text>
+</Text>
+
+
